@@ -1,0 +1,7 @@
+
+postgreSQL
+root
+5432
+
+aplication de administracion
+pgAdmin4
