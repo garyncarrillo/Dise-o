@@ -1,7 +1,21 @@
 
-postgreSQL
-root
-5432
+
+usuario: postgres
+clave:root
+puerto:5432
+
+  username: postgres
+  password: root
+  host: localhost
 
 aplication de administracion
 pgAdmin4
+
+
+rails new myapp --database=postgresql
+
+
+link de correccion
+https://stackoverflow.com/questions/30162572/error-message-make-sure-that-gem-install-pg-v-0-18-1-succeeds-before-bundl
+brew install libpqxx
+bundle install
